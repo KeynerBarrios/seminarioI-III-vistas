@@ -1,0 +1,58 @@
+.container-table-orders{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.container-logo-orders{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.832px;
+    margin-top: 10px;
+}
+
+.logo-svg-orders{
+    stroke-width: 3.624px;
+    stroke: var(--New-Logo, #AE4565);
+    width: 48.926px;
+    height: 59.497px;
+}
+
+.type-text-orders{
+    width: 52.852px;
+    height: 9.966px;
+    color: var(--New-Logo, #AE4565);
+    font-family: Arial;
+    font-size: 15.705px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.type_R-orders{
+    margin-right: 15px;
+    font-size: 11.06px;
+    letter-spacing: 1.54px;
+    font-weight: 100;
+}
+
+.title-table-orders{
+    margin-top: 20px;
+    color: #000;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+
+.weigth{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}

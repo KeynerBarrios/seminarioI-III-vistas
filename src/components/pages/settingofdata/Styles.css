@@ -1,0 +1,112 @@
+.container-setting_of_data{
+    background-color: var(--variable-collection-button-color);
+    width: 360px;
+    height: 700px;
+}
+
+.icon-arrow-back{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.title-setting-sata{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--4, #F0ECE6);
+    text-align: center;
+    font-family: Arial;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 152.3%;
+    letter-spacing: -0.36px;
+}
+
+.container-logo{
+    margin-top: 15px;
+}
+.type-text-setting{
+    color: var(--4, #F0ECE6);
+    font-family: Arial;
+    font-size: 20.591px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.type_R_setting{
+    font-size: 13.879px;
+    letter-spacing: 2.019px;
+}
+
+.contend-info{
+    margin-top: 30px;
+    width: 360px;
+    height: 572px;
+    border-radius: 60px 0px 0px 0px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+
+.setting-input{
+    padding: 7px 103px 7px 15px;
+    border-radius: 7px;
+    background: #FFF;
+    box-shadow: 0px 1.37165px 2.05747px 0px rgba(0, 0, 0, 0.17), 0px 0px 2.05747px 0px rgba(0, 0, 0, 0.08);
+}
+
+.setting-name{
+    color: var(--New-Logo, #AE4565);
+    font-family: Roboto;
+    font-size: 15.22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.829px;
+    letter-spacing: 0.143px;
+}
+
+.setting-new-name{
+    border: none;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15.22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22.829px;
+    letter-spacing: 0.143px;
+}
+
+.setting-button-change{
+    background-color: var(--variable-collection-button-color);
+    border: none;
+    border-radius: 5px;
+    margin-left: 230px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: -0.4px;
+}
+
+.setting-link-home{
+    background-color: #AE4565;
+    border-radius: 5px;
+    padding: 10px 50px;
+    text-decoration: none;
+    margin-top: 30px;
+    color: var(--4, #F0ECE6);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 152.3%; /* 21.322px */
+    letter-spacing: -0.14px;
+}
