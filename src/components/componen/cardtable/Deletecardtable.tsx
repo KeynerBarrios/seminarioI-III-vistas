@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './Styles.css'
 
-const Deletecardtable = ({title1}) =>{
+const Deletecardtable = ({title1} : any) =>{
     return(
         <div className='container-card_table delete'>
             <p className='card-text-table'>{title1}</p>
