@@ -1,7 +1,7 @@
 import './Styles.css'
 import styled from 'styled-components'
 
-function Modal({children, estado, cambiarEstado}:any){
+function Modal({children, estado, cambiarEstado}:any){ 
 
     return(
         <>
