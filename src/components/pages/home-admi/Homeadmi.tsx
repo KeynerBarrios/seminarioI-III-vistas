@@ -47,17 +47,17 @@ function Homeadmi() {
         <div className='nav__container'>
 
           <a href="#menu" className='nav__menu'>
-            <img className='nav__icon' src="public/assets/akar-icons_gear.svg" alt="" />
+            <img className='nav__icon' src="public/akar-icons_gear.svg" alt="" />
           </a>
 
           <a href="#" className='nav__menu nav__icon--second'>
-            <img className='nav__icon' src="public/assets/Back.svg" alt="" />
+            <img className='nav__icon' src="public/Back.svg" alt="" />
           </a>
 
           <ul className='dropdown' id='menu'>
             <div className='conteainer-menu'>
               <div className='icon-logo'>
-                <img className='logo' src="public/assets/Vector_logo.svg" alt="" />
+                <img className='logo' src="public/Vector_logo.svg" alt="" />
                 <p className='name_res'>LAVU’s</p>
                 <p className='name_titel'>Restaurant</p>
               </div>

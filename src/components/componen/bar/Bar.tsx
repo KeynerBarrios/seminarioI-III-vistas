@@ -14,7 +14,7 @@ function Bar(){
                 <p className='button-order'>Order</p>
             </Link>
             <div className='state'>
-                <img className='state-icon' src="public/assets/Loading bar.svg" alt="" />
+                <img className='state-icon' src="public/Loading bar.svg" alt="" />
                 <p className='state-text'>Estado del pedido</p>
             </div>
         </div>
