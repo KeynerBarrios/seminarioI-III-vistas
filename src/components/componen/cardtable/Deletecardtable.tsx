@@ -8,11 +8,11 @@ const Deletecardtable = ({title1} : any) =>{
             <div className='edit-delete'>
                 <Link to='/tablemanagement/edittable'>
                     <button className='icon-edit-delete'>
-                        <img src="public/Vector-edit.svg" alt="" />
+                        <img src="/Vector-edit.svg" alt="" />
                     </button>
                 </Link>
                 <button className='icon-edit-delete'>
-                    <img src="public/Vector-delete.svg" alt="" />
+                    <img src="/Vector-delete.svg" alt="" />
                 </button>
                 
             </div>

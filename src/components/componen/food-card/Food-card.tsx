@@ -5,7 +5,7 @@ function Foodcard(){
         <div className='contend'>
             <div className='contend-food'>
                 <div className='conted-img'>
-                    <img className='img-food' src="public/image 11.png" alt="" />
+                    <img className='img-food' src="/image 11.png" alt="" />
                 </div>
                 <div className='contend-border'>
                     <div className='information'>

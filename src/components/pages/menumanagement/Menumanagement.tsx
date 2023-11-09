@@ -15,7 +15,7 @@ function Menumanagement() {
       <div className='top-log-out'>
         <div className='back-menu'>
           <NavLink  to='/homeadmi'>
-            <img src="public/Arrow.svg" alt="" />
+            <img src="/Arrow.svg" alt="" />
           </NavLink>
         </div>
       </div>
@@ -45,7 +45,7 @@ function Menumanagement() {
         <div className='nav__container'>
 
           <a href="#menu" className='nav__menu'>
-            <img className='nav__icon' src="public/gg_math-plus.svg" alt="" />
+            <img className='nav__icon' src="/gg_math-plus.svg" alt="" />
           </a>
 
         </div>

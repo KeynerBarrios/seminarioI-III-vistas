@@ -16,7 +16,7 @@ const Settingofdata = () =>{
         <div className='container-setting_of_data'>
             <div className='icon-arrow-back'>
                 <NavLink className='logo-setting-icon' to='/homeadmi'>
-                    <img src="src/assets/Back.svg" alt="" />
+                    <img src="/Back.svg" alt="" />
                 </NavLink>
             </div>
             {/*<div className='container-logo'>
