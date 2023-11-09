@@ -7,7 +7,7 @@ function Ordertable(){
         <div className='container-table-order'>
             <div className='icon-back-order'>
                 <NavLink  to='/homeadmi'>
-                    <img src="src/assets/Arrow.svg" alt="" />
+                    <img src="public/assets/Arrow.svg" alt="" />
                 </NavLink>
             </div>
             <div className='container-logo-order'>

@@ -7,7 +7,7 @@ function Tablemanagement(){
         <div className='container-table'>
             <div className='icon-back'>
                 <NavLink  to='/homeadmi'>
-                    <img src="src/assets/Arrow.svg" alt="" />
+                    <img src="public/assets/Arrow.svg" alt="" />
                 </NavLink>
             </div>
             <div className='container-logo'>
