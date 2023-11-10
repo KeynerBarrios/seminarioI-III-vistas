@@ -1,0 +1,102 @@
+.container-saucer{
+    width: 360px;
+    height: 700px;
+    
+}
+
+.title-saucer{
+    margin-left: 16px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.72px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.type-p{
+    margin-left: 16px;
+    color: #000;
+    font-family: Arial;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.type-saucer{
+    width: 344px;
+    margin-left: 16px;
+    display: flex;
+    gap: 16px;
+    overflow-x: scroll ;
+    height: 112px;
+}
+
+
+.type-saucer::-webkit-scrollbar{
+    display: none;
+}
+
+.contend-saucer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-saucer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+}
+
+.img-type-saucer{
+    width: 200px;
+    height: 200px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+
+}
+
+.file-type-saucer{
+    width: 132px;
+ 
+
+}
+
+.input-name-saucer{
+    color: #000;
+    font-family: Arial;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.84px;
+    border: none;
+    margin-top: 10px;
+}
+
+.input-name-saucer::placeholder{
+    color: #000;
+}
+
+
+.sub-saucer{
+    display: inline-flex;
+    height: 44px;
+    padding: 15px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 7px;
+    background: var(--Button-color, #962F4E);
+    box-shadow: 0px 1.37165px 2.05747px 0px rgba(0, 0, 0, 0.17), 0px 0px 2.05747px 0px rgba(0, 0, 0, 0.08);
+}

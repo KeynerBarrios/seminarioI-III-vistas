@@ -7,6 +7,7 @@ import Ordertable from '../components/pages/ordertable/Ordertable';
 import Addtable from '../components/pages/addtable/Addtable';
 import Edittable from '../components/pages/edittable/Edittable';
 import Orderstable from '../components/pages/orderstable/Orderstable';
+import Sauceradd from '../components/pages/sauceradd/Sauceradd';
 
 
 export const AppRouter = () =>{
@@ -21,6 +22,8 @@ export const AppRouter = () =>{
             <Route path='/tablemanagement/addtable' element={<Addtable/>}/>     
             <Route path='/tablemanagement/edittable' element={<Edittable/>}/>     
             <Route path='/ordertable/orderstable' element={<Orderstable/>}/>     
+            <Route path='/sauceradd' element={<Sauceradd/>}/>     
+
         </Routes>
     )
 }

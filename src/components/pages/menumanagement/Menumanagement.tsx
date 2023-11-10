@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import Bar from '../../componen/bar/Bar'
 import Butonfoodtype from '../../componen/button-food-type/Button-food-type'
 import Foodcard from '../../componen/food-card/Food-card'
@@ -34,7 +34,7 @@ function Menumanagement() {
         </div>
       </div>
       <h3 className='titel-popular'>Popular</h3>
-      <div className='types-of-dish'>
+      <div className='types-of-dish confing'>
         <Foodcard/>
         <Foodcard/>
         <Foodcard/>
@@ -43,18 +43,13 @@ function Menumanagement() {
       </div>
       <nav className="nav">
         <div className='nav__container'>
-
-          <a href="#menu" className='nav__menu'>
+          <Link to='/sauceradd' className='nav__menu'>
             <img className='nav__icon' src="/gg_math-plus.svg" alt="" />
-          </a>
+          </Link>
 
         </div>
 
       </nav>
-      
-      <div className='bar-state'>
-        <Bar/>
-      </div>
      </div>
     </>
   )
